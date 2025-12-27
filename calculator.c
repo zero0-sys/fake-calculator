@@ -1,5 +1,3 @@
-Kalau ini berhasil jalan kan?
-
 #include <stdio.h>
 #include <stdlib.h>
 
