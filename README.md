@@ -45,7 +45,7 @@ Cek :
 ```cmd
 git --version
 
-### 2️⃣ Install Compiler C (GCC / MinGW) via CMD
+## 2️⃣ Install Compiler C (GCC / MinGW) via CMD
 
 Disarankan pakai MSYS2:
 ```cmd
