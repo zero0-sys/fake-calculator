@@ -132,6 +132,29 @@ Lalu compile ulang.
 Gunakan dengan tanggung jawab.  
 **Author tidak bertanggung jawab** atas kehilangan data atau penyalahgunaan program ini.
 
-Selamat membuat prank terhadap teman lucu kalian! 😄
 
-Kode by Naufal
+## Selamat membuat prank terhadap teman lucu kalian! 😄
+
+
+## Lisensi
+
+Free / Open Source
+
+---
+
+## Ucapan Terima Kasih
+
+* Dibuat oleh: @naufalshdq
+* Terima kasih kepada seluruh kontributor dan penguji
+* Dukung pengembangan melalui:
+  [https://saweria.co/naufalshdq](https://saweria.co/naufalshdq)
+
+---
+
+## Kontak
+
+Untuk pertanyaan, saran, atau kontribusi:
+
+* Email: [naufalmushaddiq@gmail.com](mailto:naufalmushaddiq@gmail.com)
+
+```
