@@ -41,6 +41,10 @@ Sebelum menjalankan program ini, **pastikan SEMUA ini sudah terinstall di PC kam
 
 ```cmd
 winget install --id Git.Git -e
+```
+Cek:
+
+```cmd
 git --version
 ```
 
