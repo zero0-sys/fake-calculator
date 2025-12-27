@@ -7,6 +7,7 @@ Program akan terlihat seperti kalkulator biasa, lalu menampilkan proses sistem p
 ⚠️ Hanya untuk **fun / prank / edukasi**.
 
 ---
+
 ## 📺 Apa yang Akan Terjadi
 
 Saat program dijalankan, alurnya sebagai berikut:
@@ -25,8 +26,8 @@ Saat program dijalankan, alurnya sebagai berikut:
 ⚠️ Semua proses penghapusan file **hanya tampilan teks**,  
 tidak ada file sistem yang benar-benar dihapus.
 
-
 ## 🖥️ Platform yang Didukung
+
 - Windows 7 / 10 / 11
 - Command Prompt (CMD) / PowerShell / Terminal VS Code
 
@@ -40,79 +41,102 @@ Sebelum menjalankan program ini, **pastikan SEMUA ini sudah terinstall di PC kam
 
 ```cmd
 winget install --id Git.Git -e
-
-Cek :
-```cmd
-git --version
-
-## 2️⃣ Install Compiler C (GCC / MinGW) via CMD
-
-Disarankan pakai MSYS2:
-```cmd
-winget install --id MSYS2.MSYS2 -e
-
-Setelah selesai:
-**1.** Buka MSYS2 MINGW64
-**2.** Jalankan:
-```cmd
-pacman -S mingw-w64-x86_64-gcc
+```
 
 Cek:
+
+```cmd
+git --version
+```
+
+### 2️⃣ Install Compiler C (GCC / MinGW) via CMD
+
+Disarankan pakai MSYS2:
+
+```cmd
+winget install --id MSYS2.MSYS2 -e
+```
+
+Setelah selesai:  
+**1.** Buka MSYS2 MINGW64  
+**2.** Jalankan:
+
+```cmd
+pacman -S mingw-w64-x86_64-gcc
+```
+
+Cek:
+
 ```cmd
 gcc --version
+```
 
-**jika kalian udah lengkap persyaratan nya lanjut cara menjalankan nya **
+**Jika kalian sudah lengkap persyaratan nya, lanjut cara menjalankan nya.**
 
 ### Clone Repository
 
-jalankan di command dengan perintah berikut :
+Jalankan di command dengan perintah berikut:
+
 ```cmd
 git clone https://github.com/zero0-sys/fake-calculator.git
+```
 
 Masuk folder project:
+
 ```cmd
 cd fake-calculator
+```
 
 ### Compile Program
 
 ```cmd
 gcc calculator.c -o calculator.exe
+```
 
 Jika sukses, akan muncul:
+
 ```cmd
 calculator.exe
+```
 
 ### Jalankan Program
+
 ```cmd
 calculator.exe
-
+```
 
 ### ⚠️ PERINGATAN PENTING
+
 Program ini menjalankan:
+
 ```c
 system("shutdown /s /t 0");
+```
 
-Artinya:
-**1.** PC mati langsung (shutdown)
+Artinya:  
+**1.** PC mati langsung (shutdown)  
 **2.** Pekerjaan yang belum disimpan bisa hilang
 
-** Mode Aman (tanpa shutdown) **
-Edit calculator.c, comment baris:
+**Mode Aman (tanpa shutdown)**  
+Edit `calculator.c`, comment baris:
+
 ```c
 // system("shutdown /s /t 0");
+```
 
 Lalu compile ulang.
 
 ### 📕 Catatan
-**Semua “Deleting System32” hanya tampilan teks**
-**Tidak ada file yang benar-benar dihapus**
-**Kode kalkulator asli tetap ada (if (0)), tapi tidak dijalankan**
+
+- **Semua "Deleting System32" hanya tampilan teks**
+- **Tidak ada file yang benar-benar dihapus**
+- **Kode kalkulator asli tetap ada (if (0)), tapi tidak dijalankan**
 
 ### Disclaimer
 
-Gunakan dengan tanggung jawab.
+Gunakan dengan tanggung jawab.  
 **Author tidak bertanggung jawab** atas kehilangan data atau penyalahgunaan program ini.
 
-selamat membuat prank terhadap temen lucnut kalian:v
-awokawaowoakwaokwkoakwoakwoakwowkokwokaokwaokwo
-kode by naufal
+Selamat membuat prank terhadap teman lucu kalian! 😄
+
+Kode by Naufal
