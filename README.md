@@ -48,28 +48,6 @@ Cek:
 git --version
 ```
 
-### 2. Install Compiler C (GCC / MinGW) via CMD
-
-Disarankan pakai MSYS2:
-
-```cmd
-winget install --id MSYS2.MSYS2 -e
-```
-
-Setelah selesai:  
-**1.** Buka MSYS2 MINGW64  
-**2.** Jalankan:
-
-```cmd
-pacman -S mingw-w64-x86_64-gcc
-```
-
-Cek:
-
-```cmd
-gcc --version
-```
-
 **Jika kalian sudah lengkap persyaratan nya, lanjut cara menjalankan nya.**
 
 ### Clone Repository
@@ -86,23 +64,27 @@ Masuk folder project:
 cd fake-calculator
 ```
 
-### Compile Program
-
+ihat isi folder (opsional, tapi disarankan)
 ```cmd
-gcc calculator.c -o calculator.exe
+dir
 ```
 
-Jika sukses, akan muncul:
+Pastikan ada:
+```cmd
+calculator.exe
+```
+### Jalankan program .exe di CMD
 
 ```cmd
 calculator.exe
 ```
 
-### Jalankan Program
+atau kalau mau aman:
 
 ```cmd
-calculator.exe
+.\calculator.exe
 ```
+
 
 ### ⚠️ PERINGATAN PENTING
 
