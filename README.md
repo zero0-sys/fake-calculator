@@ -8,7 +8,7 @@ Program akan terlihat seperti kalkulator biasa, lalu menampilkan proses sistem p
 
 ---
 
-## 📺 Apa yang Akan Terjadi
+## Apa yang Akan Terjadi
 
 Saat program dijalankan, alurnya sebagai berikut:
 
@@ -26,7 +26,7 @@ Saat program dijalankan, alurnya sebagai berikut:
 ⚠️ Semua proses penghapusan file **hanya tampilan teks**,  
 tidak ada file sistem yang benar-benar dihapus.
 
-## 🖥️ Platform yang Didukung
+## Platform yang Didukung
 
 - Windows 7 / 10 / 11
 - Command Prompt (CMD) / PowerShell / Terminal VS Code
@@ -37,19 +37,14 @@ tidak ada file sistem yang benar-benar dihapus.
 
 Sebelum menjalankan program ini, **pastikan SEMUA ini sudah terinstall di PC kamu**:
 
-### 1️⃣ Install Git (via CMD)
+### 1. Install Git (via CMD)
 
 ```cmd
 winget install --id Git.Git -e
-```
-
-Cek:
-
-```cmd
 git --version
 ```
 
-### 2️⃣ Install Compiler C (GCC / MinGW) via CMD
+### 2. Install Compiler C (GCC / MinGW) via CMD
 
 Disarankan pakai MSYS2:
 
