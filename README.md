@@ -132,15 +132,5 @@ Free / Open Source
 
 * Dibuat oleh: @naufalshdq
 * Terima kasih kepada seluruh kontributor dan penguji
-* Dukung pengembangan melalui:
-  [https://saweria.co/naufalshdq](https://saweria.co/naufalshdq)
-
----
-
-## Kontak
-
-Untuk pertanyaan, saran, atau kontribusi:
-
-* Email: [naufalmushaddiq@gmail.com](mailto:naufalmushaddiq@gmail.com)
 
 ```
