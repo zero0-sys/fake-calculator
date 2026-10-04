@@ -3,8 +3,8 @@
 Program ini adalah **fake calculator berbasis bahasa C** yang dijalankan lewat **CMD Windows**.  
 Program akan terlihat seperti kalkulator biasa, lalu menampilkan proses sistem palsu dan **mematikan PC**.
 
-⚠️ Program ini **TIDAK menghapus file apa pun**.  
-⚠️ Hanya untuk **fun / prank / edukasi**.
+Program ini **TIDAK menghapus file apa pun**.  
+Hanya untuk **fun / prank / edukasi**.
 
 ---
 
@@ -23,7 +23,7 @@ Saat program dijalankan, alurnya sebagai berikut:
 5. Muncul **scroll cepat ratusan file** (flood effect)
 6. **PC shutdown langsung**
 
-⚠️ Semua proses penghapusan file **hanya tampilan teks**,  
+Semua proses penghapusan file **hanya tampilan teks**,  
 tidak ada file sistem yang benar-benar dihapus.
 
 ## Platform yang Didukung
@@ -33,7 +33,7 @@ tidak ada file sistem yang benar-benar dihapus.
 
 ---
 
-## 🧰 Requirements (WAJIB ADA)
+## Requirements (WAJIB ADA)
 
 Sebelum menjalankan program ini, **pastikan SEMUA ini sudah terinstall di PC kamu**:
 
@@ -86,7 +86,7 @@ atau kalau mau aman:
 ```
 
 
-### ⚠️ PERINGATAN PENTING
+### PERINGATAN PENTING
 
 Program ini menjalankan:
 
@@ -107,7 +107,7 @@ Edit `calculator.c`, comment baris:
 
 Lalu compile ulang.
 
-### 📕 Catatan
+### Catatan
 
 - **Semua "Deleting System32" hanya tampilan teks**
 - **Tidak ada file yang benar-benar dihapus**
@@ -119,7 +119,7 @@ Gunakan dengan tanggung jawab.
 **Author tidak bertanggung jawab** atas kehilangan data atau penyalahgunaan program ini.
 
 
-## Selamat membuat prank terhadap teman lucu kalian! 😄
+## Selamat membuat prank terhadap teman lucu kalian! 
 
 
 ## Lisensi
@@ -130,7 +130,7 @@ Free / Open Source
 
 ## Ucapan Terima Kasih
 
-* Dibuat oleh: @naufalshdq
+* Dibuat oleh: zero0-sys
 * Terima kasih kepada seluruh kontributor dan penguji
 
 ```
